@@ -1,16 +1,15 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply box-border p-0 m-0 sm:max-w-md md:max-w-6xl xl:max-w-6xl mx-auto bg-gradient-to-br from-sky-800 to-violet-400;
+    }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer utilities {
+    .clip-br-95 {
+        clip-path: polygon(0 0, 100% 0, 100% 97%, 0 100%);
+    }
 }
