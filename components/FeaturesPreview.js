@@ -14,7 +14,7 @@ export const FeaturesPreview = () => {
             <FeaturesPreviewSingle />
         </div>
         <div className="flex justify-center">
-          <Link href="/register">
+          <Link href="/register" passHref>
             <button className="p-3 mt-8 text-gray-800 bg-amber-300 rounded font-bold hover:translate-x-2 ease-in-out duration-200">Try for free</button>
           </Link>
         </div>

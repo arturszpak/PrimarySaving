@@ -6,7 +6,7 @@ export const Footer = () => {
       <div className="p-12 flex flex-col md:flex-row md:justify-between lg:max-w-6xl lg:m-auto">
         <div className="flex flex-col sm:mb-14">
           <div className="relative w-36 h-20">
-              <Image src="/logo.png" layout='fill' />
+              <Image src="/logo.png" layout='fill' alt="" />
           </div>
           <p className='text-xs mt-1'>Modern app to save money.</p>
         </div>

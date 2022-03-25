@@ -39,7 +39,7 @@ export const PricingPlansPreview = () => {
         </header>
         <div className="flex justify-around flex-wrap gap-10 ">
             {
-                plansData.map(plan => <PricingPlansPreviewSingle {...plan} />)
+                plansData.map(plan => <PricingPlansPreviewSingle key={plan.type} {...plan} />)
             }
         </div>
     </div>
