@@ -1,6 +1,13 @@
 ## Technologies
 
+<<<<<<< HEAD
 
+=======
+#### #NextJS
+#### #TailwindCSS
+
+#
+>>>>>>> 3910cc695a9c91fff583a0858e6a307cd55650e1
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
