@@ -4,8 +4,31 @@
 
 @layer base {
     body {
-        @apply box-border p-0 m-0 sm:max-w-md md:max-w-6xl xl:max-w-6xl mx-auto bg-gradient-to-br from-sky-800 to-violet-400;
+        @apply box-border p-0 m-0 bg-gradient-to-br from-sky-800 to-violet-400 bg-no-repeat;
     }
+
+    [type="text"],
+    [type="email"],
+    [type="url"],
+    [type="password"],
+    [type="number"],
+    [type="date"],
+    [type="datetime-local"],
+    [type="month"],
+    [type="search"],
+    [type="tel"],
+    [type="time"],
+    [type="week"],
+    [multiple],
+    textarea,
+    select {
+      @apply w-full border-gray-300 rounded-lg shadow-sm focus:border-indigo-500 focus:ring-indigo-500;
+    }
+    [type="checkbox"],
+    [type="radio"] {
+      @apply border-gray-300 rounded text-indigo-600 focus:ring-indigo-500;
+    }
+
 }
 
 @layer utilities {
