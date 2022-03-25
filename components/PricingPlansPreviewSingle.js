@@ -12,7 +12,7 @@ export const PricingPlansPreviewSingle = ({type, imgHeaderPath, price, paymentIn
             <p>{headerText}</p>
             <ul className='list-disc pl-6 mt-2'>
                 {
-                    features.map(feature => <li key={feature.type}>{feature}</li>)
+                    features.map(feature => <li key={feature}>{feature}</li>)
                 }
             </ul>
             <button className="p-3 mt-8 text-gray-800 bg-amber-300 rounded font-bold hover:translate-x-2 ease-in-out duration-200"> {buttonText} </button>
